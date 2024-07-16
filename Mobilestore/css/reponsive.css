@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+    #banner {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo, 
+    #search, 
+    #cart {
+        height: 50px;
+    }   
+    /* cart */
+    #cart {
+        text-align: left;
+    }
+
+    /* slider */
+    #carouselExampleIndicators {
+        display: none;
+    }
+
+    /* menu */
+    .list-item {
+        float: none;
+        border-right: none;
+        border-bottom: 1px solid #C60A11;
+    }
+
+    .navbar-toggler {
+        display: block;
+        float: right;
+        background: #fff;
+        margin-top: 10px;
+    }
+}
